@@ -1,0 +1,50 @@
+section {
+
+    @include flex(flex, goldenrod, space-evenly);
+    width: 100%;
+    flex-flow: row wrap;
+    @include center(center);
+    padding: 18px $zero;
+
+    .box-two {
+        width: 294.33px;
+
+        img {
+            border-radius: 50%;
+            -webkit-border-radius: 50%;
+            -moz-border-radius: 50%;
+            -ms-border-radius: 50%;
+            -o-border-radius: 50%;
+            width: 100;
+            height: 100;
+
+        }
+
+        p {
+
+            font-size: 14px;
+            margin: 35px;
+
+        }
+
+        h3 {
+            font-size: 24px;
+
+        }
+
+        a.btn-default {
+            text-decoration: $none;
+            color: $black;
+            border-color: $white;
+            margin: $zero 100px;
+            @include background-padding($white, 7px);
+            border-radius: 4px;
+            -webkit-border-radius: 4px;
+            -moz-border-radius: 4px;
+            -ms-border-radius: 4px;
+            -o-border-radius: 4px;
+
+        }
+    }
+
+}

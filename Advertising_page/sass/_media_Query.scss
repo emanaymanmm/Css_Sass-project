@@ -1,0 +1,119 @@
+@include breakpoints(mobile) {
+
+    label.checkbtn {
+        display: $inline-block;
+        margin: 27px $zero;
+
+
+    }
+
+    div ul {
+        width: 100%;
+        height: 43vh;
+        background-color: #333;
+        position: $fixed;
+        top: 58px;
+        left: $zero;
+        display: $none;
+
+        li {
+            display: $block;
+            margin: 23px 28px;
+        }
+    }
+
+    /* first ul will be display:none 
+    after checking,it will be block , if I pressed again the state of unchecked 
+    return and the display will be null */
+
+    .header {
+        .logo {
+            font-size: 28px;
+            margin: -6px 30px;
+            color: $white;
+            width: 50%;
+        }
+
+        #check:checked~ul {
+            display: $block;
+        }
+
+        input {
+            display: $none;
+        }
+    }
+
+    .Section-one {
+
+        text-align: $center;
+
+        width: 100%;
+
+        h1 {
+            font-size: 36px;
+        }
+
+        p {
+            font-size: 21px;
+        }
+
+    }
+
+
+    .Section-two {
+        width: 100%;
+        text-align: $center;
+        margin-top: 12px;
+        /* padding: 12px; */
+    }
+
+
+    .section-three {
+        flex-flow: column nowrap;
+
+        .Box {
+            text-align: $center;
+            /* width: 100%; */
+
+            div img {
+                width: 700px;
+                height: 300px;
+                padding: $zero;
+                margin: $zero;
+                max-width: 100%;
+            }
+
+            p {
+
+                padding: $zero 6px $zero 19px;
+                margin: $zero;
+                width: 100%;
+            }
+
+
+        }
+    }
+
+
+
+
+
+    section {
+        width: 100%;
+        flex-flow: column nowrap;
+
+        .box-two {
+            margin-bottom: 15px;
+        }
+    }
+
+    .footer {
+        text-align: $center;
+        margin-top: 23px;
+    }
+
+
+
+
+
+}

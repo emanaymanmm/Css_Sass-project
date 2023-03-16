@@ -1,0 +1,112 @@
+.header {
+    @include flex(flex, $black, space-evenly);
+    width: 100%;
+    position: $fixed;
+    left: $zero;
+    top: $zero;
+    max-height: 75;
+
+    .logo {
+        font-size: $zero;
+        margin: $zero;
+        padding: $zero;
+        width: $zero;
+    }
+}
+
+ul {
+    list-style: $none;
+    padding: $zero;
+    margin-right: $zero;
+    margin-left: $zero;
+
+    li {
+
+        display: $inline-block;
+        margin: 10px;
+        color: $grey;
+        font-size: 18px;
+
+        font-family: $font-family;
+    }
+
+    li:hover {
+        color: $white;
+    }
+}
+
+
+.dropdown {
+
+    .dropbtn {
+        background-color: $black;
+        color: grey;
+        /* padding: 16px; */
+        font-size: 18px;
+        border: $none;
+        max-height: 21px;
+    }
+
+    .dropdown-content {
+        display: $none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+
+        a {
+            color: $black;
+            padding: 12px 16px;
+            text-decoration: $none;
+            display: $block;
+        }
+
+        a:hover {
+            background-color: #f1f1f1
+        }
+    }
+
+    &:hover .dropdown-content {
+        display: $block;
+    }
+
+    &:hover .dropdown-content {
+        display: $block;
+    }
+
+    &:hover .dropbtn {
+        background-color: $black;
+        color: $white;
+    }
+}
+
+
+div input[type="search"],
+input[type="submit"] {
+    margin-top: 28px;
+    border-radius: 4px;
+    border: 2px;
+    font-size: 18px;
+}
+
+
+input[type="search"] {
+    &:focus {
+        border-color: rgba(0, 0, 255, 0.308);
+    }
+}
+
+
+label {
+    &.checkbtn {
+        color: $white;
+        font-size: 25px;
+        display: $none;
+
+    }
+}
+
+input {
+    &#check {
+        display: $none;
+    }
+}

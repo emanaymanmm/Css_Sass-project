@@ -1,0 +1,21 @@
+.footer {
+
+    text-align: center;
+    margin-top: 23px;
+
+    p {
+        color: $grey;
+    }
+
+    .list a {
+        color: $blue;
+        text-decoration: $none;
+
+        &:hover {
+            text-decoration: underline;
+            color: #103e66;
+        }
+    }
+
+
+}

@@ -1,0 +1,25 @@
+@mixin background-padding ($background, $padding) {
+    background-color: $background;
+    padding: $padding;
+
+}
+
+@mixin flex ($display, $background, $justify-content) {
+    display: $display;
+    background-color: $background;
+    justify-content: $justify-content;
+}
+
+@mixin center ($center) {
+    text-align: $center;
+    align-items: $center;
+}
+
+@mixin breakpoints($point) {
+    @if $point==mobile {
+        @media (max-width:767px) {
+            @content;
+        }
+    }
+
+}

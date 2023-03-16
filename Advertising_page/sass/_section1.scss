@@ -1,0 +1,41 @@
+.Section-one {
+
+    @include background-padding(yellowgreen, 41px);
+    width: 100%;
+    margin-top: 74px;
+    text-align: center;
+
+    a.#{$button} {
+        @include background-padding($blue, 7px);
+        text-decoration: $none;
+        color: #fff;
+        border-color: #2e6da4;
+        width: 100%;
+        border-radius: 4px;
+
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        -ms-border-radius: 4px;
+        -o-border-radius: 4px;
+    }
+
+    h1 {
+        font-size: 63;
+        color: $color;
+        margin: 17px;
+        font-family: $font-family;
+    }
+
+    p {
+        color: $color;
+        font-size: 21;
+        margin: 15px 0px;
+        font-family: $font-family;
+    }
+
+}
+
+div img {
+    width: 290px;
+    height: 300px;
+}

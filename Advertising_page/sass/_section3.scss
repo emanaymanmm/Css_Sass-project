@@ -1,0 +1,35 @@
+.section-three {
+
+    text-align: center;
+    display: flex;
+    width: 100%;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    padding: 6px 33px;
+
+    .Box {
+
+        p {
+            font-size: 12px;
+            padding: 0px 14px 0px 0px;
+            /* margin: 10px; */
+            display: $block;
+            width: 293.33;
+            /* height: 120; */
+            color: $grey;
+        }
+
+        h3 {
+            font-size: 24px;
+            margin: 8px;
+            color: $blue;
+            /* display: block; */
+            /* padding: 0px 10px; */
+            /* padding-left: 0px; */
+        }
+
+
+    }
+
+
+}

@@ -1,0 +1,28 @@
+.Section-two {
+
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+
+    h2 {
+        font-size: 36px;
+        margin: 4px 0px;
+
+        span {
+            font-size: 65%;
+            color: $grey;
+
+        }
+
+    }
+
+    p {
+        font-size: 14px;
+        color: $grey;
+        padding-top: $zero;
+        padding-inline: 23px;
+
+    }
+
+
+}
